@@ -136,21 +136,21 @@ public class nic extends javax.swing.JFrame {
                 }else if(day>213){
                     day=day-213;
                     month="August";
-                }else if(day>183){
-                    day=day-183;
+                }else if(day>182){
+                    day=day-182;
                     month="July";
                 }else if(day>152){
                     day=day-152;
                     month="June";
-                }else if(day>122){
-                    day=day-122;
+                }else if(day>121){
+                    day=day-121;
                     month="May";
                    
                 }else if(day>91){
                     day=day-91;
                     month="April";
-                }else if(day>61){
-                    day=day-61;
+                }else if(day>60){
+                    day=day-60;
                     month="March";
                 }else if(day>31){
                     day=day-31;

@@ -25,6 +25,46 @@ public class BirthdayFinder {
         String month="";
         
         
+//            if(day>0){
+//                if(day>500){
+//                    gender ="Female";
+//                    
+//                    day = day-500;
+//                }else if(day<500){
+//                    gender ="Male";
+//                    
+//                    day = day;
+//                }
+//                
+//                if(day>335){
+//                     month="December";
+//                    
+//                }else if(day>305){
+//                     month="November";
+//                        
+//                }else if(day>274){
+//                     month ="Octomber";
+//                }else if(day>244){
+//                    month ="September";
+//                }else if(day>213){
+//                    month="August";
+//                }else if(day>183){
+//                    month="July";
+//                }else if(day>152){
+//                    month="June";
+//                }else if(day>122){
+//                    month="May";
+//                }else if(day>91){
+//                    month="April";
+//                }else if(day>61){
+//                    month="March";
+//                }else if(day>31){
+//                    month="Febuary";
+//                }else if(day>1){
+//                    month="January";
+//                }
+
+
             if(day>0){
                 if(day>500){
                     gender ="Female";
@@ -37,30 +77,43 @@ public class BirthdayFinder {
                 }
                 
                 if(day>335){
+                    day = day-335;
                      month="December";
                     
                 }else if(day>305){
+                    day=day-305;
                      month="November";
                         
                 }else if(day>274){
+                    day=day-274;
                      month ="Octomber";
                 }else if(day>244){
+                    day=day-244;
                     month ="September";
                 }else if(day>213){
+                    day=day-213;
                     month="August";
-                }else if(day>183){
+                }else if(day>182){
+                    day=day-182;
                     month="July";
                 }else if(day>152){
+                    day=day-152;
                     month="June";
-                }else if(day>122){
+                }else if(day>121){
+                    day=day-121;
                     month="May";
+                   
                 }else if(day>91){
+                    day=day-91;
                     month="April";
-                }else if(day>61){
+                }else if(day>60){
+                    day=day-60;
                     month="March";
                 }else if(day>31){
+                    day=day-31;
                     month="Febuary";
-                }else if(day>1){
+                }else if(day>=1){
+                    day=day;
                     month="January";
                 }
                 
@@ -71,7 +124,8 @@ public class BirthdayFinder {
         }
         
          
-    }   
+    }
+}
     
     
 
