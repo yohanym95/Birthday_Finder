@@ -11,6 +11,7 @@ package birthdayfinder;
  */
 public class nic extends javax.swing.JFrame {
 
+    
     /**
      * Creates new form nic
      */
